@@ -197,7 +197,9 @@ nav .navbar a:hover{
 /* The section of Welcome */
 header.hero{
     height:600px;
-    /* background-image: url(Images/bgimage.jpg); */
+    /* background-image: url('../Images/bgimage.jpg'); */
+    background: linear-gradient(45deg,#87adfe,#ff77cd);
+    margin-top: 6px;
     background-position: 0% 0%;
     background-repeat: no-repeat;
     overflow: hidden;
