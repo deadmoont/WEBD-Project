@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../cssfiles/home1.css">
-    <title>HOME</title>
+    <title>XBlaze</title>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <script src="https://kit.fontawesome.com/28f828d15e.js" crossorigin="anonymous"></script>
 </head>
@@ -40,11 +40,11 @@
                     <img src="../icons/callicon.svg" alt="">
                     <div>
                         <h5>Call Us: (+91)4546551514 </h5>
-                        <h6>E-mail : abc@gmail.com</h6>
+                        <h6>E-mail : xblaze2024@gmail.com</h6>
                     </div>
                 </div>
                 <div class="logo">
-                    <img src="" alt="logo">
+                    <img src="../Images/vblaze-logo.png" alt="XBlaze">
                 </div>
                 <div class="time">
                     <img src="../icons/clockicon.svg" alt="">
@@ -68,13 +68,15 @@
     <header class="hero flex items-center">
         <div class="container">
             <div class="welcome flex items-center">
-                <span>Welcome To</span>
-                <img src="" alt="logo">
+                Welcome To <span>XBlaze</span>
+                <!-- <img src="../Images/vblaze-logo.png" alt="logo"> -->
             </div>
             <h1>Explore the <span>Fashion</span> Ongoing</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, aspernatur!</p>
+            <p>Whether you're seeking everyday essentials or statement pieces, we have something for every taste and preference.</p>
             <div>
-                <button class="btn btn-primary">Read More</button>
+                <button class="btn btn-primary">
+                    <a href="../htmlfiles/About_Us.html" class="anchor">Read More</a>
+                </button>
                 <button class="btn btn-secondary">Shop Now</button>
             </div>
             <div class="hero-image">
@@ -94,14 +96,16 @@
                 <button class="slider-btn next-btn">
                     <img src="../icons/next.svg" alt="">
                 </button>
-                <div class="clothes-slider">
+                <div class="clothes-slider flex">
                     <div class="cloth-card magic-shadow-sm">
                         <div class="product-image flex items-center justify-center">
-                            <img src="../Images/product-image1.jpeg" alt="">
+                            <a href="../htmlfiles/product.html">
+                                <img src="../Images/side view.jpeg" alt="">
+                            </a>
                         </div>
                         <hr>
                         <div>
-                            <h2 class="text-center">Hi Hello</h2>
+                            <h2 class="text-center">Product 1</h2>
                             <div class="stars flex justify-center items-center">
                                 <img src="../icons/star-filled.svg" alt="">
                                 <img src="../icons/star-filled.svg" alt="">
@@ -110,23 +114,26 @@
                                 <img src="../icons/star-grey.svg" alt="">
                             </div>
                             <div class="price text-center">
-                                Rs 2340
+                                $5
                             </div>
                             <div class="flex justify-center">
-                                <button>
+                                <button onclick="showToast()">
                                     <img src="../icons/cart-2.svg" alt="">
                                     <span>Add to Cart</span>
                                 </button>
+                                <div id="toast" class="hidden">The product has been added to cart</div>
                             </div>
                         </div>
                     </div>
                     <div class="cloth-card magic-shadow-sm">
                         <div class="product-image flex items-center justify-center">
-                            <img src="../Images/product-image2.jpeg" alt="">
+                            <a href="../htmlfiles/product.html">
+                                <img src="../Images/product-image2.jpeg" alt="">
+                            </a>
                         </div>
                         <hr>
                         <div>
-                            <h2 class="text-center">Hi Hello 2</h2>
+                            <h2 class="text-center">Product 2</h2>
                             <div class="stars flex justify-center items-center">
                                 <img src="../icons/star-filled.svg" alt="">
                                 <img src="../icons/star-filled.svg" alt="">
@@ -135,23 +142,26 @@
                                 <img src="../icons/star-grey.svg" alt="">
                             </div>
                             <div class="price text-center">
-                                Rs 2340
+                                $2.3
                             </div>
                             <div class="flex justify-center">
-                                <button>
+                                <button onclick="showToast()">
                                     <img src="../icons/cart-2.svg" alt="">
                                     <span>Add to Cart</span>
                                 </button>
+                                <div id="toast" class="hidden">The product has been added to cart</div>
                             </div>
                         </div>
                     </div>
                     <div class="cloth-card magic-shadow-sm">
                         <div class="product-image flex items-center justify-center">
-                            <img src="../Images/product-image3.jpeg" alt="">
+                            <a href="../htmlfiles/product.html">
+                                <img src="../Images/product-image3.jpeg" alt="">
+                            </a>
                         </div>
                         <hr>
                         <div>
-                            <h2 class="text-center">Hi Hello 3</h2>
+                            <h2 class="text-center">Product 3</h2>
                             <div class="stars flex justify-center items-center">
                                 <img src="../icons/star-filled.svg" alt="">
                                 <img src="../icons/star-filled.svg" alt="">
@@ -160,23 +170,26 @@
                                 <img src="../icons/star-grey.svg" alt="">
                             </div>
                             <div class="price text-center">
-                                Rs 2340
+                                $3.5
                             </div>
                             <div class="flex justify-center">
-                                <button>
+                                <button onclick="showToast()">
                                     <img src="../icons/cart-2.svg" alt="">
                                     <span>Add to Cart</span>
                                 </button>
+                                <div id="toast" class="hidden">The product has been added to cart</div>
                             </div>
                         </div>
                     </div>
                     <div class="cloth-card magic-shadow-sm">
                         <div class="product-image flex items-center justify-center">
-                            <img src="../Images/product-image4.jpeg" alt="">
+                            <a href="../htmlfiles/product.html">
+                                <img src="../Images/product-image4.jpeg" alt="">
+                            </a>
                         </div>
                         <hr>
                         <div>
-                            <h2 class="text-center">Hi Hello 4</h2>
+                            <h2 class="text-center">Product 4</h2>
                             <div class="stars flex justify-center items-center">
                                 <img src="../icons/star-filled.svg" alt="">
                                 <img src="../icons/star-filled.svg" alt="">
@@ -185,23 +198,26 @@
                                 <img src="../icons/star-grey.svg" alt="">
                             </div>
                             <div class="price text-center">
-                                Rs 2340
+                                $10
                             </div>
                             <div class="flex justify-center">
-                                <button>
+                                <button onclick="showToast()">
                                     <img src="../icons/cart-2.svg" alt="">
                                     <span>Add to Cart</span>
                                 </button>
+                                <div id="toast" class="hidden">The product has been added to cart</div>
                             </div>
                         </div>
                     </div>
                     <div class="cloth-card magic-shadow-sm">
                         <div class="product-image flex items-center justify-center">
-                            <img src="../Images/product-image5.jpeg" alt="">
+                            <a href="../htmlfiles/product.html">
+                                <img src="../Images/product-image5.jpeg" alt="">
+                            </a>
                         </div>
                         <hr>
                         <div>
-                            <h2 class="text-center">Hi Hello 5</h2>
+                            <h2 class="text-center">Product 5</h2>
                             <div class="stars flex justify-center items-center">
                                 <img src="../icons/star-filled.svg" alt="">
                                 <img src="../icons/star-filled.svg" alt="">
@@ -210,23 +226,26 @@
                                 <img src="../icons/star-grey.svg" alt="">
                             </div>
                             <div class="price text-center">
-                                Rs 2340
+                                $2
                             </div>
                             <div class="flex justify-center">
-                                <button>
+                                <button onclick="showToast()">
                                     <img src="../icons/cart-2.svg" alt="">
                                     <span>Add to Cart</span>
                                 </button>
+                                <div id="toast" class="hidden">The product has been added to cart</div>
                             </div>
                         </div>
                     </div>
                     <div class="cloth-card magic-shadow-sm">
                         <div class="product-image flex items-center justify-center">
-                            <img src="../Images/product-image6.jpeg" alt="">
+                            <a href="../htmlfiles/product.html">
+                                <img src="../Images/product-image6.jpeg" alt="">
+                            </a>
                         </div>
                         <hr>
                         <div>
-                            <h2 class="text-center">Hi Hello 6</h2>
+                            <h2 class="text-center">Product 6</h2>
                             <div class="stars flex justify-center items-center">
                                 <img src="../icons/star-filled.svg" alt="">
                                 <img src="../icons/star-filled.svg" alt="">
@@ -235,13 +254,14 @@
                                 <img src="../icons/star-grey.svg" alt="">
                             </div>
                             <div class="price text-center">
-                                Rs 2340
+                                $3
                             </div>
                             <div class="flex justify-center">
-                                <button>
+                                <button onclick="showToast()">
                                     <img src="../icons/cart-2.svg" alt="">
                                     <span>Add to Cart</span>
                                 </button>
+                                <div id="toast" class="hidden">The product has been added to cart</div>
                             </div>
                         </div>
                     </div>
@@ -254,7 +274,7 @@
     </section>
     <section class="big-deal">
         <div class="container">
-            <h1 class="section-heading text-pure">Big Deals of The Week</h1>
+            <h1 class="section-heading text-pure">Big Deals of The Year</h1>
             <div class="timer flex">
                 <div>
                     <span id="day">02</span>
@@ -282,19 +302,19 @@
                   <div class="service-card magic-shadow-sm">
                     <img class="transport-icon" src="../icons/transport.svg" alt="">
                     <h2>Free Home Delivery</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, perferendis.</p>
+                    <p>Enjoy the convenience of free home delivery! Get your favorite products delivered straight to your doorstep at no extra cost.</p>
                     <button class="btn btn-secondary">Read More</button>
                   </div>
                   <div class="service-card magic-shadow-sm">
                     <img class="transport-icon" src="../icons/bag.svg" alt="">
                     <h2 class="text-primary">14-Days Return Services</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, perferendis.</p>
+                    <p>Shop confidently with our hassle-free 14-day return policy. Not satisfied with your purchase? No problem! Return it within 14 days for a full refund or exchange. Your satisfaction is our priority.</p>
                     <button class="btn btn-primary">Read More</button>
                   </div>
                   <div class="service-card magic-shadow-sm">
                     <img class="transport-icon" src="../icons/usd.svg" alt="">
                     <h2>Money Back Guaranted</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, perferendis.</p>
+                    <p>Rest easy with our money-back guarantee. If you're not satisfied with your purchase, we'll refund your money, no questions asked. Your satisfaction is our commitment.</p>
                     <button class="btn btn-secondary">Read More</button>
                   </div>
             </div>

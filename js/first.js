@@ -9,7 +9,7 @@ $(document).ready(function(){
 });
 
 //timer starts here
-var dest= new Date("mar 31,2024 12:00:00").getTime();
+var dest= new Date("apr 31,2024 13:00:00").getTime();
 
 var x = setInterval(function(){
 
@@ -31,3 +31,21 @@ document.getElementById("mins").innerHTML = minutes;
 document.getElementById("sec").innerHTML = second;
 
 }, 1000 );
+
+function showPopup() {
+    var popup = document.getElementById("productPopup");
+    popup.style.display = "block";
+}
+
+function closePopup() {
+    var popup = document.getElementById("productPopup");
+    popup.style.display = "none";
+}
+function showToast() {
+    var toast = document.getElementById("toast");
+    toast.classList.remove("hidden");
+
+setTimeout(function() {
+    toast.classList.add("hidden");
+    }, 3000); // 3000 milliseconds = 3 seconds, adjust as needed
+}

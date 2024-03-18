@@ -96,6 +96,10 @@ nav .top{
     display: flex;
     align-items: center;
 }
+.top .container .logo img{
+    height: 5rem;
+    width: 5rem;
+}
 .top .contact h5 , .top .time h5{
     /* font-family later +contact h6 + time part also */
     margin-bottom:0.25rem;
@@ -135,10 +139,12 @@ nav .navbar a{
 nav .navbar a.active{
     background: var(--primary);
     color: var(--pure);
+    border-radius: 4rem;
 }
 nav .navbar a:hover{
     background: var(--primary);
     color: var(--pure);
+    border-radius: 4rem;
 }
 
 /* shadow feature for nav and small (sm) for image making class */
@@ -211,6 +217,16 @@ header.hero .welcome{
     margin-bottom: 0.25rem;
 }
 header.hero .welcome span{
+    color: var(--danger);
+    font-size: 6rem;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* header.hero .welcome img{
+    height: 3rem;
+    width: 3rem;
+} */
+header.hero .welcome span{
     font-family: none;
     color: var(--secondary);
     margin-right: 0.75rem;
@@ -242,6 +258,10 @@ header.hero p{
     cursor: pointer;
     transition: 0.3sec ease;
     border: 1px solid transparent;
+}
+.anchor{
+    text-decoration: none;
+    color: var(--secondary);
 }
 .btn-primary{
     background: var(--primary);
@@ -321,6 +341,27 @@ section.top-products .clothes-slider .cloth-card h2{
     font-family: none;
     font-size: 1.3rem;
     margin-bottom: 0.25rem;
+}
+#toast {
+    position: fixed;
+    bottom: 140px;
+    left: 50%;
+    /* margin-left: 400px;
+    margin-right: 400px; */
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    transition: opacity 0.5s ease;
+    
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 section.top-products .clothes-slider .cloth-card .stars img{
     margin-right: 0.25rem;

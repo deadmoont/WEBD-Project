@@ -134,10 +134,12 @@ nav .navbar a{
 nav .navbar a.active{
     background: var(--primary);
     color: var(--pure);
+    border-radius: 4rem;
 }
 nav .navbar a:hover{
     background: var(--primary);
     color: var(--pure);
+    border-radius: 4rem;
 }
 
 .magic-shadow{
@@ -200,7 +202,10 @@ nav .navbar a:hover{
     display:block;
     margin:auto;
 } */
-
+.top .container .logo img{
+    height: 5rem;
+    width: 5rem;
+}
 .About{
     background: var(--light);
     display:block;
