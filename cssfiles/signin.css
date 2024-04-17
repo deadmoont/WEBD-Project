@@ -12,7 +12,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #000;
+    background:#55585f;
+    /* background: linear-gradient(45deg,#87adfe,#ff77cd); */
     overflow: hidden;
 }
 /* For the whole form box */
@@ -21,8 +22,10 @@ body{
     width: 400px;
     height: 500px;
     /* overflow-y: auto; */
-    background: #000;
-    box-shadow: 0 0 50px #0ef;
+    /* background: #ff77cd; */
+    background: #232B38;
+    /* background: linear-gradient(45deg,#1d50be,#a01c70); */
+    /* box-shadow: 0 0 50px #0ef; */
     border-radius: 20px;
     padding: 40px;
     overflow: hidden;
@@ -30,11 +33,7 @@ body{
 .wrapper:hover{
     animation: animate 1s linear infinite;
 }
-@keyframes animate{
-    100%{
-        filter: hue-rotate(360deg);
-    }
-}
+
 /* For the form */
 .form-wrapper{
     display: flex;
@@ -104,16 +103,16 @@ h2{
     font-size: 14px; 
 }
 /* For Checkbox */
-.remember label input{
+/* .remember label input{
     accent-color: #0ef;
-}
+} */
 /* For login button */
 button{
     position: relative;
     margin-bottom: 20px;
     width: 100%;
     height: 40px;
-    background: #0ef;
+    background: rgb(0, 191, 255);
     box-shadow: 0 0 10px #0ef;
     font-size: 16px;
     color: #000;

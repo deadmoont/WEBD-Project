@@ -228,8 +228,9 @@ header.hero .welcome span{
 } */
 header.hero .welcome span{
     font-family: none;
-    color: var(--secondary);
+    color: var(--primary);
     margin-right: 0.75rem;
+
 }
 header.hero h1{
     font-family: none;
